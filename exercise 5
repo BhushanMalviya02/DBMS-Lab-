@@ -1,0 +1,2 @@
+SELECT CITY,POPULATION FROM north_american_cities WHERE COUNTRY = 'Canada';
+SELECT CITY FROM north_american_cities WHERE COUNTRY = 'United States' order by LATITUDE DESC;
