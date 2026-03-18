@@ -1,0 +1,4 @@
+SELECT * FROM movies WHERE TITLE LIKE 'TOY%';
+SELECT * FROM movies WHERE DIRECTOR = 'John Lasseter';
+SELECT * FROM movies WHERE DIRECTOR is not  'John Lasseter';
+SELECT * FROM movies WHERE title like 'WALL-%';
