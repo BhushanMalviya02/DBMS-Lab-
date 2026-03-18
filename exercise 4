@@ -1,0 +1,4 @@
+SELECT distinct director FROM movies order by  director;
+SELECT * FROM movies order by  YEAR DESC LIMIT 4;
+SELECT * FROM movies order by TITLE LIMIT 5;
+SELECT * FROM movies  order by TITLE ASC  LIMIT 5 OFFSET 5 ;
